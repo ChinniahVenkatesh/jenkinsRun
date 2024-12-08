@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-16T10:25:26 IST" name="Suite" finished-at="2024-11-16T10:25:39 IST" duration-ms="13253">
+    <groups>
+    </groups>
+    <test started-at="2024-11-16T10:25:26 IST" name="Test" finished-at="2024-11-16T10:25:39 IST" duration-ms="13253">
+      <class name="tes.test1">
+        <test-method signature="test02()[pri:0, instance:tes.test1@1c5920df]" started-at="2024-11-16T10:25:26 IST" name="test02" finished-at="2024-11-16T10:25:39 IST" duration-ms="13194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method signature="test01()[pri:0, instance:tes.test1@1c5920df]" started-at="2024-11-16T10:25:26 IST" name="test01" finished-at="2024-11-16T10:25:30 IST" duration-ms="3891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+      </class> <!-- tes.test1 -->
+      <class name="tes.Testngclass1">
+        <test-method is-config="true" signature="testMethod()[pri:0, instance:tes.Testngclass1@5e2c3d18]" started-at="2024-11-16T10:25:26 IST" name="testMethod" finished-at="2024-11-16T10:25:26 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method is-config="true" signature="testMethod()[pri:0, instance:tes.Testngclass1@5e2c3d18]" started-at="2024-11-16T10:25:26 IST" name="testMethod" finished-at="2024-11-16T10:25:26 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method is-config="true" signature="testMethod()[pri:0, instance:tes.Testngclass1@5e2c3d18]" started-at="2024-11-16T10:25:26 IST" name="testMethod" finished-at="2024-11-16T10:25:26 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="test01(java.lang.String)[pri:0, instance:tes.Testngclass1@5e2c3d18]" started-at="2024-11-16T10:25:26 IST" name="test01" data-provider="testData" finished-at="2024-11-16T10:25:26 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dhoni]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method signature="test02(int)[pri:0, instance:tes.Testngclass1@5e2c3d18]" started-at="2024-11-16T10:25:26 IST" name="test02" data-provider="testDataArray" finished-at="2024-11-16T10:25:26 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method signature="initBrowser()[pri:0, instance:tes.Testngclass1@5e2c3d18]" started-at="2024-11-16T10:25:26 IST" name="initBrowser" finished-at="2024-11-16T10:25:28 IST" duration-ms="1807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="test01(java.lang.String)[pri:0, instance:tes.Testngclass1@5e2c3d18]" started-at="2024-11-16T10:25:26 IST" name="test01" data-provider="testData" finished-at="2024-11-16T10:25:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CSK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method is-config="true" signature="testMethod()[pri:0, instance:tes.Testngclass1@5e2c3d18]" started-at="2024-11-16T10:25:26 IST" name="testMethod" finished-at="2024-11-16T10:25:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- tes.Testngclass1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2024-11-16T10:25:40 IST" name="My test suite" finished-at="2024-11-16T10:25:40 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- My test suite -->
+  <suite started-at="2024-11-16T10:25:40 IST" name="Suite1" finished-at="2024-11-16T10:25:40 IST" duration-ms="21">
+    <groups>
+    </groups>
+    <test started-at="2024-11-16T10:25:40 IST" name="Test" finished-at="2024-11-16T10:25:40 IST" duration-ms="21">
+      <class name="tes.dataTest">
+        <test-method signature="test01()[pri:0, instance:tes.dataTest@4b8d604b]" started-at="2024-11-16T10:25:40 IST" name="test01" finished-at="2024-11-16T10:25:40 IST" duration-ms="12" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\chinn\selenium-sept\tes\src\test\java\tes\test.json (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\chinn\selenium-sept\tes\src\test\java\tes\test.json (The system cannot find the file specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+at java.base/java.io.FileReader.<init>(FileReader.java:60)
+at tes.dataTest.test01(dataTest.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+      </class> <!-- tes.dataTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite1 -->
+</testng-results>
